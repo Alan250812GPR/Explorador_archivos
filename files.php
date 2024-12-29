@@ -3411,7 +3411,7 @@ function fm_show_nav_path($path)
             $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']), 'https') === FALSE ? 'http' : 'https';
             $location = $protocol. '://' .$_SERVER['HTTP_HOST'];
             $path = fm_clean_path($path);
-            $root_url = "<a href=".$location."/home.php><i class='fa fa-home' aria-hidden='true' title='" . 'Mi Fleximatic' . "'></i></a> Volver a mi Fleximatic";
+            $root_url = "<a href=".$location."/home.php><i class='fa fa-home' aria-hidden='true' title='" . 'Mi sitio' . "'></i></a> Volver a mi sitio";
             $sep = '<i class="bread-crumb"> / </i>';
             if ($path != '') {
                 $exploded = explode('/', $path);
