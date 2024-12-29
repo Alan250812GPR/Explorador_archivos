@@ -56,10 +56,8 @@ $default_timezone = 'America/Mexico_City'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
-$root_path = '\\\\192.168.10.14'.DIRECTORY_SEPARATOR.'Fleximatic'.DIRECTORY_SEPARATOR.'Compras'.DIRECTORY_SEPARATOR.'Importaciones'.DIRECTORY_SEPARATOR;
-//$_SERVER['DOCUMENT_ROOT']; //'\\\\gdl-fs01\\Fleximatic\Compras\Importaciones' . DIRECTORY_SEPARATOR;
-
-//\\GDL-FS01\Fleximatic\Compras\Importaciones
+$root_path = 'Ruta';
+//$_SERVER['DOCUMENT_ROOT'];
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
